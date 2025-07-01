@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+  </head>
+  <body>
+    <h1>Kayıt Ol</h1>
+    <form action="successSignup.html" method="post">
+      <div>
+        <label for="name">Ad Soyad:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Adınızı ve soyadınızı girin"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">E-posta:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="E-posta adresinizi girin"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Şifre:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Şifrenizi girin"
+          required
+        />
+      </div>
+      <div>
+        <label for="confirmPassword">Şifreyi Onayla:</label><br />
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Şifrenizi tekrar girin"
+          required
+        />
+      </div>
+      <button type="submit">Kayıt Ol</button>
+    </form>
+    <p>Zaten hesabın var mı? <a href="login.html">Giriş Yap</a></p>
+  </body>
+</html>
