@@ -4,36 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giriş Yap</title>
+    <link rel="stylesheet" href="../DayTask-2/style.css" />
   </head>
+  <!--Bazı kısımlar sonraki günlerin task'inden dolayı değişmiş olabilir.-->
   <body>
-    <form action="successLogin.html" method="post">
-      <h1>Giriş Yap</h1>
-      <div>
-        <label for="email">E-posta:</label> <br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="E-posta adresinizi girin"
-          required
-        />
-      </div>
-      <div>
-        <label for="password">Şifre:</label><br />
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Şifrenizi girin"
-          required
-        />
-      </div>
-      <div>
-        <input type="checkbox" id="remember" name="remember" />
-        <label for="remember">Beni Hatırla</label>
-      </div>
-      <button type="submit">Gönder</button>
-    </form>
+    <div class="form-container">
+      <form action="successLogin.html" method="post">
+        <h1>Giriş Yap</h1>
+        <div>
+          <label for="email">E-posta:</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-posta adresinizi girin"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Şifre:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Şifrenizi girin"
+            required
+          />
+        </div>
+        <div>
+          <input type="checkbox" id="remember" name="remember" />
+          <label for="remember">Beni Hatırla</label>
+        </div>
+        <button type="submit">Gönder</button>
+      </form>
+    </div>
     <p>
       Hesabın yok mu?
       <a href="signup.html">Hemen Kayıt Ol</a>
