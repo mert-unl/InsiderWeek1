@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeded;
+  border: 1px solid #ffeaea;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.product-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.product-info p {
+  font-size: 1rem;
+  margin-bottom: auto;
+}
+
+.product-info button {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.product-info button:hover {
+  background-color: #0056b3;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card.tukendi::before {
+  content: "Tükendi";
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background-color: #ff0e6a;
+  color: white;
+  padding: 6px 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.3);
+}
