@@ -234,6 +234,12 @@ body {
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
+.episode-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
 .episode-card:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 10px 20px rgba(255, 136, 0, 1);
