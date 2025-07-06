@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gibi Dizisi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="nav-logo">gibi</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#characters">Karakterler</a></li>
+          <li><a href="#episodes">Bölümler</a></li>
+          <li><a href="#aboutme">Hakkımda</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header">
+      <h1>gibi</h1>
+      <img src="assets/afis.png" class="poster" />
+    </header>
+
+    <section class="description">
+      <p>
+        Gibi, absürt komedi türünde bir Türk dizisidir. Exxen platformunda
+        yayınlanmaktadır. Dizi, Feyyaz Yiğit'in yazıp başrolünü üstlendiği
+        yapımlardan biridir. Absürt mizah anlayışı ve karakterlerin sıra dışı
+        hikayeleriyle dikkat çekmektedir.
+      </p>
+    </section>
+
+    <!--karakterler-->
+    <section class="characters" id="characters">
+      <h2>Ana Karakterler</h2>
+      <div class="characters-list">
+        <div class="character-card">
+          <h3>Yılmaz</h3>
+          <img src="assets/yilmaz.png" />
+          <p>
+            Mantık yürütme becerisi tartışılabilir ama her zaman inandığını
+            savunan, olaylara genelde düz bakan bir karakterdir.
+          </p>
+        </div>
+        <div class="character-card">
+          <h3>İlkkan</h3>
+          <img src="assets/ilkkan.png" />
+          <p>
+            Sürekli özlü sözler söyleyen, olaylara farklı bir bakış açısıyla
+            yaklaşan, bazen abartılı tepkiler veren bir karakterdir.
+          </p>
+        </div>
+        <div class="character-card">
+          <h3>Ersoy</h3>
+          <img src="assets/ersoy.png" />
+          <p>
+            Duygusal, yer yer dramatik çıkışlar yapan ama grubun denge unsurunu
+            oluşturan, kendine has özgün bir tarza sahip karakterdir.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--favori sahne-->
+    <section class="favorite-scene">
+      <h2>Favori Sahneler</h2>
+      <div>
+        <h3>mandosi</h3>
+        <p>
+          "Çaça ve Cosplay" isimli bölümde Yılmaz, İlkkan ve Ersoy'un verdiği
+          listedeki eşyaları terziden alması gerekiyordur. Mandosi adlı dükkanı
+          terzi sanıp girer ve absürt bir sohbet ortaya çıkar.
+        </p>
+        <iframe src="https://www.youtube.com/embed/XavUVTnrKFw" allowfullscreen>
+        </iframe>
+      </div>
+      <div>
+        <h3>insan bilir ne yaşadığını ya</h3>
+        <p>
+          "İkinci yol" adlı bölümde İlkkan'ın babaannesinin ölümüyle eline geçen
+          mektupta yaşına dair bazı gerçekler ortaya çıkar.
+        </p>
+        <iframe src="https://www.youtube.com/embed/y4l3In0BFgI" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!--ikinci sayfa-->
+
+    <section class="episode-list" id="episodes">
+      <h2>En Beğenilen Gibi Bölümleri</h2>
+      <div class="episode-cards">
+        <div class="episode-card">
+          <h3>Erasmus’la Gelen Yamyam <span>(Sezon 1, Bölüm 4)</span></h3>
+          <p>
+            Ersoy’un evine Erasmus öğrencisi gelir. Aynı dönemde babaannesi
+            hayatını kaybeder. Grup, Ersoy’un yanında olmak ister ancak olaylar
+            beklenmedik bir şekilde gelişir.
+          </p>
+          <button class="favori">Favorilere Ekle</button>
+        </div>
+
+        <div class="episode-card">
+          <h3>İkinci Yol <span>(Sezon 1, Bölüm 7)</span></h3>
+          <p>
+            İlkkan’ın babaannesinin ölümüyle birlikte eline bir mektup geçer ve
+            ailesine dair bazı sırlar ortaya çıkar. İlkkan, geçmişini
+            araştırmaya başlar.
+          </p>
+          <button class="favori">Favorilere Ekle</button>
+        </div>
+
+        <div class="episode-card">
+          <h3>Atın Bulunuşu <span>(Sezon 1, Bölüm 12)</span></h3>
+          <p>
+            Orta Asya’da yaşayan küçük bir kabile, daha önce hiç
+            karşılaşmadıkları yabani bir yaratıkla tanışır. Kabilenin lideri,
+            topluluğu bu yeni durum karşısında yönlendirmeye çalışır.
+          </p>
+          <button class="favori">Favorilere Ekle</button>
+        </div>
+
+        <div class="episode-card">
+          <h3>Kuki <span>(Sezon 2, Bölüm 2)</span></h3>
+          <p>
+            Yılmaz ve Ersoy, mahallede engelli bir çocuk için yardım kampanyası
+            başlatır. İlkkan, borçlarını ödemek için arkadaşlarından yardım
+            ister ve işler karışır.
+          </p>
+          <button class="favori">Favorilere Ekle</button>
+        </div>
+
+        <div class="episode-card">
+          <h3>Çaça ve Cosplay <span>(Sezon 2, Bölüm 5)</span></h3>
+          <p>
+            Yılmaz, İlkkan ve Ersoy’un sevgilileriyle birlikte geçirdikleri
+            değişimlerin ardından aralarındaki ilişki gerilmeye başlar.
+            Davranışlarındaki farklılıklar, arkadaşlık dinamiklerini etkiler.
+          </p>
+          <button class="favori">Favorilere Ekle</button>
+        </div>
+
+        <div class="episode-card">
+          <h3>
+            Demir Kalenin Kuzgunları: Ölüm Büyücüsü’nün Mirası
+            <span>(Sezon 5, Bölüm 12)</span>
+          </h3>
+          <p>
+            Üç amatör maceracı, kasabanın lordundan bir görev alır. Hırsızlar,
+            orklar, goblinler, büyücüler ve cadılarla dolu tehlikeli bir dünyada
+            hayatta kalmaya çalışırlar.
+          </p>
+          <button class="favori">Favorilere Ekle</button>
+        </div>
+      </div>
+    </section>
+
+    <!--footer hakkımda-->
+    <footer class="about" id="aboutme">
+      <h2>Hakkımda</h2>
+      <p>
+        Bu site <strong>Mert Ünal</strong> tarafından hazırlanmıştır. Aşağıdaki
+        bağlantılardan bana ulaşabilirsiniz.
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/mert-%C3%BCnal/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/mert-unl" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="https://my-portfolyo-taupe.vercel.app/" target="_blank"
+            >Kişisel Sitem</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
