@@ -5,7 +5,7 @@
 
 body {
   font-family: Tahoma, sans-serif;
-  background: linear-gradient(to right, #f8b95b, #ffce2de3, #ffe28285);
+  background: linear-gradient(to right, #fab44a, #ffce2de3, #fff7cb);
   color: #222;
   line-height: 1.5;
   min-height: 100vh;
@@ -37,7 +37,6 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: #fcc97e;
-  user-select: none;
 }
 
 .hamburger {
@@ -69,7 +68,7 @@ body {
 }
 
 .nav-links li a:hover {
-  color: #ffe282;
+  color: #ffedb3;
 }
 
 .header {
@@ -97,15 +96,16 @@ body {
 
   text-align: center;
   font-size: 1.2rem;
-  color: #333232;
+  color: #2c3e50;
 }
 
 .characters h2 {
   text-align: center;
+
   font-size: 2rem;
+
   margin: 2rem 0;
   color: #2c3e50;
-  user-select: none;
 }
 
 .characters-list {
@@ -122,8 +122,8 @@ body {
   background-color: #fff;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 2px 8px rgba(235, 147, 46, 0.5);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,7 +131,7 @@ body {
 
 .character-card:hover {
   transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 20px rgba(255, 136, 0, 1);
 }
 
 .character-card img {
@@ -143,12 +143,12 @@ body {
 
 .character-card h3 {
   font-size: 2rem;
-  color: #2c3e50;
+  color: #f5742a;
 }
 
 .character-card p {
   text-align: center;
-  color: #444;
+  color: #3b3535;
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -218,7 +218,6 @@ body {
   font-size: 2.2rem;
   color: #2c3e50;
   margin-bottom: 2rem;
-  user-select: none;
 }
 
 .episode-cards {
@@ -231,24 +230,23 @@ body {
   background-color: #fff;
   border-radius: 12px;
   padding: 1rem 1.2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 10px rgba(253, 149, 89, 0.815);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .episode-card:hover {
   transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 20px rgba(255, 136, 0, 1);
 }
 
 .episode-card h3 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: #1a237e;
-  user-select: none;
 }
 
 .episode-card h3 span {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #555;
 }
 
@@ -262,7 +260,6 @@ body {
 .about h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  user-select: none;
 }
 
 .about p {
@@ -283,7 +280,7 @@ body {
   color: #ffe282;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 
 .about ul li a:hover {
